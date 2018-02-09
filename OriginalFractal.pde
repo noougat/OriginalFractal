@@ -1,4 +1,4 @@
-int i = 0;
+//int i = 0;
 public void setup()
 {
   size(500,500);
@@ -7,9 +7,9 @@ public void setup()
 public void draw()
 {
   background(230,mouseY/2,mouseX/2);
-  rotate(i);
+  //rotate(i);
   myFractal(0,0,500);
-  i = i + 25;
+  //i = i + 25;
 }
 
 public void myFractal( float x, float y, float siz)
